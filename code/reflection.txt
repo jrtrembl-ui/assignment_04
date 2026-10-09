@@ -5,3 +5,6 @@ Using boolean indexes helped me identify those unmatched employees and separate 
 I also got more comfortable with the copy-add-return pattern because it lets me add new information without changing the original DataFrame. 
 The biggest thing I learned was to test each part of the pipeline as I worked instead of waiting until the end. 
 This made it much easier to find errors and understand which part of my code needed to be fixed.
+One thing I still need more practice with is using axis=1 and understanding when I should apply a function to a whole row instead of a single Series.
+On future assignments, I plan to practice this by testing smaller examples first and checking the output before adding the function to the full pipeline.
+This should help me understand row operations better and catch mistakes earlier.
