@@ -1,6 +1,4 @@
-Write your reflection here.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from this assignment (lineage, grain, element function, Series.apply,
-row apply / axis=1, left merge, NaN, coerce, copy-add-return, boolean index,
-export), and make it actionable.
+This assignment helped me understand how a payroll pipeline works. 
+I learned how to use Series.apply, axis=1, and a left merge to work with data. 
+I also learned how NaN values and boolean indexes can help find unmatched employees. 
+Testing each function separately made it much easier to find and fix mistakes.
