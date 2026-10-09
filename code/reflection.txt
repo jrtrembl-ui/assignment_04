@@ -1,4 +1,7 @@
-This assignment helped me understand how a payroll pipeline works. 
-I learned how to use Series.apply, axis=1, and a left merge to work with data. 
-I also learned how NaN values and boolean indexes can help find unmatched employees. 
-Testing each function separately made it much easier to find and fix mistakes.
+This assignment helped me understand how different parts of a data pipeline work together instead of just focusing on one function at a time. 
+I learned how to use Series.apply for individual values and axis=1 when a function needs multiple values from the same row. 
+I also learned why a left merge is useful because it keeps every timesheet row, even when an employee does not match the roster and creates NaN values. 
+Using boolean indexes helped me identify those unmatched employees and separate regular and overtime pay. 
+I also got more comfortable with the copy-add-return pattern because it lets me add new information without changing the original DataFrame. 
+The biggest thing I learned was to test each part of the pipeline as I worked instead of waiting until the end. 
+This made it much easier to find errors and understand which part of my code needed to be fixed.
